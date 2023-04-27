@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@300&family=Roboto&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body{
+  background-color: #3333ff;
+}
+
+#container{
+  height: 92vh;
+}
+
+h1{
+  font-size: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  color: azure;
+  font-family: 'Chivo Mono', monospace;
+}
+
+.card {
+  width: 600px;
+  border-radius: 8px;
+  background: linear-gradient(315deg, #e1e1e1, #ffffff);
+  box-shadow:  3px 3px 10px #999999,
+              3px 3px 10px #ffffff09;
+  margin-left: 660px;
+  margin-top: 100px;
+}
+
+
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 75px;
+}
+
+span{
+  font-style: italic;
+  font-size: 23px;
+  color: white;
+  font-family: 'Chivo Mono', monospace;
+}
+
+#foto{
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  margin-left: 160px;
+  margin-top: 20px;
+}
+
+p{
+  font-size: 19px;
+  margin-left: 15px;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+input{
+  border-radius: 5px;
+  height: 20px;
+}
+
+#resultado{
+ text-align: center;
+ font-size: 18px;
+}
+
+.button{
+  width: 90px;
+  height: 25px;
+  background-color: #3333ff;
+  color: wheat;
+  font-size: 17px;
+  font-style:inherit;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.button:hover{
+  background-color: #ffffff;
+  color: black;
+}
+
+
