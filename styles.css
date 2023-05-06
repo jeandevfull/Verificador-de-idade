@@ -95,4 +95,30 @@ input{
   color: black;
 }
 
+@media only screen and (max-width: 480px) {
+  .card {
+    width: 100%;
+    margin: 0;
+  }
+  
+  h1 {
+    font-size: 40px;
+  }
+  
+  footer{
+    display: grid;
+    width: 100%;
+  }
+
+  span{
+    font-size: 20px;
+  }
+  
+  #foto{
+    width: 70%;
+    margin-left: 70px;
+  }
+
+}
+
 
